@@ -1,0 +1,32 @@
+@media (max-width: 1600px) {}
+
+@media (max-width: 1600px) {
+
+    .mySwiperBanner .caption h2{font-size:44px;line-height:64px;}
+    .mySwiperBanner .caption p{font-size:16px;}
+}
+
+@media (max-width: 1199.98px) {
+
+   .mySwiperBanner .caption h2{font-size:34px;line-height:44px;}
+}
+
+@media (max-width: 991.98px) {
+    .mySwiperBanner .swiper-button-next, .mySwiperBanner .swiper-button-prev {
+        width: 50px;
+        height: 35px;
+    }
+    .mySwiperBanner .caption h2{font-size:24px;line-height:34px;}
+    .mySwiperBanner .caption p{font-size:14px;}
+}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    .top-bar p,ul.contact-info a{font-size:12px;}
+    .top-bar p, ul.contact-info a{text-align: center;}
+    .contact-info{text-align:center;}
+    ul.contact-info li:nth-child(2){margin-left:10px;}
+}
+
+@media (max-width: 480px) {}
