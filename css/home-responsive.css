@@ -2,31 +2,121 @@
 
 @media (max-width: 1600px) {
 
-    .mySwiperBanner .caption h2{font-size:44px;line-height:64px;}
-    .mySwiperBanner .caption p{font-size:16px;}
+    .mySwiperBanner .caption h2 {
+        font-size: 44px;
+        line-height: 64px;
+    }
+
+    .mySwiperBanner .caption p {
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 44px;
+    }
+
+    .custompad {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
 }
 
 @media (max-width: 1199.98px) {
 
-   .mySwiperBanner .caption h2{font-size:34px;line-height:44px;}
+    .mySwiperBanner .caption h2 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .heading {
+        font-size: 34px;
+    }
+
+    .description {
+        padding-top: 40px;
+    }
 }
 
 @media (max-width: 991.98px) {
-    .mySwiperBanner .swiper-button-next, .mySwiperBanner .swiper-button-prev {
+
+    .mySwiperBanner .swiper-button-next,
+    .mySwiperBanner .swiper-button-prev {
         width: 50px;
         height: 35px;
     }
-    .mySwiperBanner .caption h2{font-size:24px;line-height:34px;}
-    .mySwiperBanner .caption p{font-size:14px;}
+
+    .mySwiperBanner .caption h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .mySwiperBanner .caption p {
+        font-size: 14px;
+    }
+
+    .custompad {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .title-wrap {
+        padding-right: 50px;
+    }
+
+    .heading {
+        font-size: 28px;
+    }
 }
 
 @media (max-width: 767.98px) {}
 
 @media (max-width: 575.98px) {
-    .top-bar p,ul.contact-info a{font-size:12px;}
-    .top-bar p, ul.contact-info a{text-align: center;}
-    .contact-info{text-align:center;}
-    ul.contact-info li:nth-child(2){margin-left:10px;}
+
+    .top-bar p,
+    ul.contact-info a {
+        font-size: 12px;
+    }
+
+    .top-bar p,
+    ul.contact-info a {
+        text-align: center;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    ul.contact-info li:nth-child(2) {
+        margin-left: 10px;
+    }
+
+    .custompad {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .description {
+        padding-top: 15px;
+    }
+
+    .categorySwiper .swiper-wrapper {
+        margin-bottom: 50px;
+    }
+
+    .categorySwiper .swiper-pagination {
+        max-width: calc(1500px - 200px);
+        width: calc(96% - 200px);
+    }
+
+    .btn-c {
+        width: 110px;
+        height: 40px;
+        line-height: 40px;
+    }
 }
 
 @media (max-width: 480px) {}

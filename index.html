@@ -137,6 +137,93 @@
       </div>
    </section>
 
+   <div class="home">
+
+      <section class="view-our-categories custompad">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-6">
+                  <div class="title-wrap">
+                     <span class="eyebrow">VIEW OUR CATEGORIES</span>
+                     <h1 class="heading">The products you need for the look you want</h1>
+                  </div>
+               </div>
+               <div class="col-sm-6">
+                  <div class="description">
+                     <p>The bathroom becomes an oasis of luxury with our collections crafted from around the world.
+                        Fireclay sinks add timeless style, bathtubs of understated beauty become centerpieces, showers
+                        and faucets in a plethora of styles perform brilliantly.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="container position-relative">
+            <div class="swiper categorySwiper mt-sm-5 mt-3">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <img src="images/image-01.jpg" alt="image 1" />
+                     <div class="overlay">
+                        <h4>Bathtubs</h4>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="images/image-02.png" alt="image 2" />
+                     <div class="overlay">
+                        <h4>Bathtubs</h4>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="images/image-03.jpg" alt="image 3" />
+                     <div class="overlay">
+                        <h4>Bathtubs</h4>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="images/image-04.jpg" alt="image 4" />
+                     <div class="overlay">
+                        <h4>Bathtubs</h4>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="images/image-05.jpg" alt="image 5" />
+                     <div class="overlay">
+                        <h4>Bathtubs</h4>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="images/image-01.jpg" alt="image 1" />
+                     <div class="overlay">
+                        <h4>Bathtubs</h4>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="images/image-02.png" alt="image 2" />
+                     <div class="overlay">
+                        <h4>Bathtubs</h4>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="images/image-03.jpg" alt="image 3" />
+                     <div class="overlay">
+                        <h4>Bathtubs</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-pagination"></div>
+
+            </div>
+            <div class="view-all text-end custom-margin">
+               <a href="#" class="btn-c">SEE ALL<i class="ms-2"><img src="images/arrow-right-dark.png" alt="icon"></i></a>
+            </div>
+
+         </div>
+ 
+
+      </section>
+
+
+   </div>
 
 
 
@@ -179,16 +266,33 @@
       });
    </script>
 
-   <!-- Initialize Swiper -->
+   <!-- Category Swiper -->
    <script>
-      var swiper = new Swiper(".mySwiper", {
-         cssMode: true,
-
-         pagination: {
-            el: ".swiper-pagination",
+      var categorySwiper = new Swiper('.categorySwiper', {
+         slidesPerView: 1.5,
+         spaceBetween: 20,
+         loop: true,
+         centeredSlides: false,
+         speed: 800,
+         autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
          },
-         mousewheel: true,
-         keyboard: true,
+         pagination: {
+            el: ".swiper-pagination", // Connects to external element
+            type: "progressbar",
+            clickable: true,
+         },
+         breakpoints: {
+            768: {
+               slidesPerView: 2.5,
+               spaceBetween: 20,
+            },
+            1024: {
+               slidesPerView: 4.5,
+               spaceBetween: 20,
+            },
+         },
       });
    </script>
 
