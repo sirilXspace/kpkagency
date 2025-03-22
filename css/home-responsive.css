@@ -19,6 +19,10 @@
         padding-top: 90px;
         padding-bottom: 90px;
     }
+
+    .welcome-to-kpk .img-box img {
+        height: 660px;
+    }
 }
 
 @media (max-width: 1199.98px) {
@@ -66,9 +70,52 @@
     .heading {
         font-size: 28px;
     }
+    .lg-hotspot__button{width:20px;height:20px;}
+    .lg-hotspot__button:after{width:11px;height:11px;}
+    .lg-hotspot__label{width:140px;padding:10px}
+    .lg-hotspot__label img{width:120px;}
 }
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+
+    .welcome-to-kpk .img-box {
+        padding-right: 30px;
+    }
+
+    .welcome-to-kpk .img-box img {
+        height: 240px;
+    }
+
+    .welcome-to-kpk .img-box::after {
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        width: calc(100% - 60px);
+        height: calc(100% - 30px);
+    }
+
+    .welcome-to-kpk .img-box-2 img {
+        height: 240px;
+    }
+
+    .welcome-to-kpk .img-box-2::after {
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        width: calc(100% - 30px);
+        height: calc(100% - 30px);
+    }
+
+    .welcome-to-kpk .text-description {
+        padding-right: 50px;
+    }
+    .custom-margin2{margin-top:30px;}
+    .welcome-to-kpk .img-box{margin-bottom:30px;}
+    .welcome-to-kpk .img-box-2{margin-top:48px;}
+
+}
 
 @media (max-width: 575.98px) {
 
@@ -112,11 +159,19 @@
         width: calc(96% - 200px);
     }
 
-    .btn-c {
-        width: 110px;
-        height: 40px;
-        line-height: 40px;
-    }
+    .welcome-to-kpk .img-box{padding-right:0px;}
+    .welcome-to-kpk .img-box::after{width:calc(100% - 30px)}
+    .custom-margin2{margin-bottom:30px;}
+    .welcome-to-kpk .img-box-2{margin-top:28px;}
+    .lg-hotspot__label{width:100px;}
+    .lg-hotspot__label img{width:90px;}
+    .lg-hotspot__label p{font-size:12px;}
+    .lg-hotspot__button{width:15px;height:15px;}
+    .lg-hotspot__button:after{width:5px;height:5px;}
+    .building-bathroom{margin-bottom:30px;}
+    .lg-hotspot__button:after{border:3px solid rgb(255, 255, 255,0.5)}
+    .btn-c2,.btn-c{padding:7px 17px}
+    
 }
 
 @media (max-width: 480px) {}
