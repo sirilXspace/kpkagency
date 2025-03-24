@@ -42,6 +42,9 @@
     }
     .latestmodels{width:calc(100% - 100px);}
     .latestmodels h3{font-size:21px;}
+    .latestblog h3{font-size:18px;line-height:28px;}
+    .our-brands h2{font-size:34px;}
+
 }
 
 @media (max-width: 991.98px) {
@@ -85,6 +88,9 @@
     .latestmodels .latest-model-img{margin-bottom:20px;}
     .latestmodels h3{font-size:18px;}
     .latestmodels{margin-left:70px;width:calc(100% - 70px);}
+    .video_block .video-container .play-button::before{width:60px;height:60px;}
+    .our-brands h2{font-size:28px;}
+    .our-brands{padding-left:100px;padding-top:70px;}
 }
 
 @media (max-width: 767.98px) {
@@ -182,6 +188,13 @@
     .building-bathroom{margin-bottom:30px;}
     .lg-hotspot__button:after{border:3px solid rgb(255, 255, 255,0.5)}
     .btn-c2,.btn-c{padding:7px 17px}
+    .video_block .video-container .play-button img{width:30px;}
+    .video_block .video-container .play-button::before{border:5px solid #fff}
+    .our-brands h2{font-size:20px;}
+    .our-brands {
+        padding-left: 80px;
+        padding-top: 60px;
+    }
     
 }
 

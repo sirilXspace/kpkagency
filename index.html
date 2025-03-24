@@ -30,6 +30,23 @@
       </div>
    </div> -->
 
+   <!-- Bootstrap Modal -->
+   <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+         <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+               <!-- Video Element -->
+               <video id="videoPlayer" width="100%" controls>
+                  <source src="videos/video.mp4" type="video/mp4" autoplay muted />
+                  Your browser does not support HTML video.
+               </video>
+            </div>
+         </div>
+      </div>
+   </div>
 
    <!-- Header -->
    <div class="top-bar">
@@ -353,32 +370,38 @@
                   <div class="swiper-slide">
                      <img src="images/LM-image-01.jpg" alt="image 1" class="latest-model-img" />
                      <h3>Modern Kitchen Sinks</h3>
-                     <a href="#" class="view_prdt">VIEW PRODUCTS<i class="ms-3"><img src="images/arrow-right-dark.png" alt="icon"></i></a>
+                     <a href="#" class="view_prdt">VIEW PRODUCTS<i class="ms-3"><img src="images/arrow-right-dark.png"
+                              alt="icon"></i></a>
                   </div>
                   <div class="swiper-slide">
                      <img src="images/LM-image-02.jpg" alt="image 2" class="latest-model-img" />
                      <h3>Traditional Steam Shower Rooms</h3>
-                     <a href="#" class="view_prdt">VIEW PRODUCTS<i class="ms-3"><img src="images/arrow-right-dark.png" alt="icon"></i></a>
+                     <a href="#" class="view_prdt">VIEW PRODUCTS<i class="ms-3"><img src="images/arrow-right-dark.png"
+                              alt="icon"></i></a>
                   </div>
                   <div class="swiper-slide">
                      <img src="images/LM-image-03.jpg" alt="image 3" class="latest-model-img" />
                      <h3>Modern Sanitaryware</h3>
-                     <a href="#" class="view_prdt">VIEW PRODUCTS<i class="ms-3"><img src="images/arrow-right-dark.png" alt="icon"></i></a>
+                     <a href="#" class="view_prdt">VIEW PRODUCTS<i class="ms-3"><img src="images/arrow-right-dark.png"
+                              alt="icon"></i></a>
                   </div>
                   <div class="swiper-slide">
                      <img src="images/LM-image-01.jpg" alt="image 1" class="latest-model-img" />
                      <h3>Modern Kitchen Sinks</h3>
-                     <a href="#" class="view_prdt">VIEW PRODUCTS<i class="ms-3"><img src="images/arrow-right-dark.png" alt="icon"></i></a>
+                     <a href="#" class="view_prdt">VIEW PRODUCTS<i class="ms-3"><img src="images/arrow-right-dark.png"
+                              alt="icon"></i></a>
                   </div>
                   <div class="swiper-slide">
                      <img src="images/LM-image-02.jpg" alt="image 2" class="latest-model-img" />
                      <h3>Traditional Steam Shower Rooms</h3>
-                     <a href="#" class="view_prdt">VIEW PRODUCTS<i class="ms-3"><img src="images/arrow-right-dark.png" alt="icon"></i></a>
+                     <a href="#" class="view_prdt">VIEW PRODUCTS<i class="ms-3"><img src="images/arrow-right-dark.png"
+                              alt="icon"></i></a>
                   </div>
                   <div class="swiper-slide">
                      <img src="images/LM-image-03.jpg" alt="image 3" class="latest-model-img" />
                      <h3>Modern Sanitaryware</h3>
-                     <a href="#" class="view_prdt">VIEW PRODUCTS<i class="ms-3"><img src="images/arrow-right-dark.png" alt="icon"></i></a>
+                     <a href="#" class="view_prdt">VIEW PRODUCTS<i class="ms-3"><img src="images/arrow-right-dark.png"
+                              alt="icon"></i></a>
                   </div>
                </div>
 
@@ -389,135 +412,323 @@
 
       </section>
 
-   </div>
+      <div class="video_block">
+         <div class="video-container">
+            <img src="images/video-banner.jpg" alt="video" class="w-100">
+            <button class="play-button" data-bs-toggle="modal" data-bs-target="#videoModal"><img
+                  src="images/play-linear.png"></button>
+         </div>
+      </div>
+
+      <section class="mathc-style custompad">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-6">
+                  <div class="title-wrap">
+                     <span class="eyebrow">OUR LATEST NEWS</span>
+                     <h2 class="heading">Latest articles directly from the blog</h2>
+                  </div>
+               </div>
+               <div class="col-sm-6">
+                  <div class="description">
+                     <p>dNam ac egestas est. Mauris et pulvinar risus, at tincidunt lorem. Maecenas tristique sit amet
+                        odio sit amet aliquet. dNam ac egestas est. Mauris et pulvinar risus, at tincidunt lorem.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper latestblog mt-sm-5 mt-3">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <img src="images/blog-img-1.jpg" alt="image 2" class="latest-blog-img" />
+                     <span class="date">MARCH 8, 2023 - BY ADMIN</span>
+                     <h3>MAURIS ET PULVINAR CIDUNT MAURIS ET PULVINAR CIDUNT</h3>
+                     <p>dNam ac egestas est. Mauris et pulvinar risus, at tincidunt lorem. Maecenas tristique sit amet
+                        odio sit amet aliquet. dNam ac egestas est. Mauris et pulvinar risus.</p>
+                     <a href="#" class="view_prdt text-start">READ MORE<i class="ms-3"><img
+                              src="images/arrow-right-dark.png" alt="icon"></i></a>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="images/blog-img-2.jpg" alt="image 3" class="latest-blog-img" />
+                     <span class="date">MARCH 10, 2023 - BY ADMIN</span>
+                     <h3>MAURIS ET PULVINAR CIDUNT MAURIS ET PULVINAR CIDUNT</h3>
+                     <p>dNam ac egestas est. Mauris et pulvinar risus, at tincidunt lorem. Maecenas tristique sit amet
+                        odio sit amet aliquet. dNam ac egestas est. Mauris et pulvinar risus.</p>
+                     <a href="#" class="view_prdt text-start">READ MORE<i class="ms-3"><img
+                              src="images/arrow-right-dark.png" alt="icon"></i></a>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="images/blog-img-3.jpg" alt="image 1" class="latest-blog-img" />
+                     <span class="date">MARCH 12, 2023 - BY ADMIN</span>
+                     <h3>MAURIS ET PULVINAR CIDUNT MAURIS ET PULVINAR CIDUNT</h3>
+                     <p>dNam ac egestas est. Mauris et pulvinar risus, at tincidunt lorem. Maecenas tristique sit amet
+                        odio sit amet aliquet. dNam ac egestas est. Mauris et pulvinar risus.</p>
+                     <a href="#" class="view_prdt text-start">READ MORE<i class="ms-3"><img
+                              src="images/arrow-right-dark.png" alt="icon"></i></a>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="images/blog-img-1.jpg" alt="image 2" class="latest-blog-img" />
+                     <span class="date">MARCH 4, 2023 - BY ADMIN</span>
+                     <h3>MAURIS ET PULVINAR CIDUNT MAURIS ET PULVINAR CIDUNT</h3>
+                     <p>dNam ac egestas est. Mauris et pulvinar risus, at tincidunt lorem. Maecenas tristique sit amet
+                        odio sit amet aliquet. dNam ac egestas est. Mauris et pulvinar risus.</p>
+                     <a href="#" class="view_prdt text-start">READ MORE<i class="ms-3"><img
+                              src="images/arrow-right-dark.png" alt="icon"></i></a>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="images/blog-img-2.jpg" alt="image 3" class="latest-blog-img" />
+                     <span class="date">MARCH 4, 2023 - BY ADMIN</span>
+                     <h3>MAURIS ET PULVINAR CIDUNT MAURIS ET PULVINAR CIDUNT</h3>
+                     <p>dNam ac egestas est. Mauris et pulvinar risus, at tincidunt lorem. Maecenas tristique sit amet
+                        odio sit amet aliquet. dNam ac egestas est. Mauris et pulvinar risus.</p>
+                     <a href="#" class="view_prdt text-start">READ MORE<i class="ms-3"><img
+                              src="images/arrow-right-dark.png" alt="icon"></i></a>
+                  </div>
+               </div>
+
+
+
+            </div>
+         </div>
+
+
+      </section>
+
+
+      <div class="brands custompad pt-0">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="placeholder d-none d-md-block">
+                     <img src="images/our-brands-bw.png" alt="placeholder">
+                  </div>
+               </div>
+               <div class="col-md-8">
+                  <div class="our-brands">
+                  <h2>OUR<br>
+                     BRANDS</h2>
+                     <div class="brand-slider swiper">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <img src="images/jaquar.png" alt="icon">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="images/icon-cera.png" alt="icon">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="images/essco.png" alt="icon">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="images/geberit.png" alt="icon">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="images/franke.png" alt="icon">
+                           </div>
+
+                        </div>
+                     </div>
+                     </div>
+               </div>
+            </div>
+
+         </div>
+         </div>
+
+
+
+
+</div>
 
 
 
 
 
+         <!-- Optional JavaScript -->
+         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+         <script src="js/bootstrap.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+         <script src="js/wow.js"></script>
+         <script src="js/page.js"></script>
 
+         <script>
+            wow = new WOW(
+               {
+                  animateClass: 'animate__animated',
+                  offset: 0,
+               });
+            wow.init();
+         </script>
+         <script>
+            var mySwiperBanner = new Swiper('.mySwiperBanner', {
+               slidesPerView: 1,
+               spaceBetween: 0,
+               loop: true,
+               speed: 800,
+               autoplay: {
+                  delay: 3000,
+                  disableOnInteraction: false,
+               },
+               pagination: {
+                  el: '.swiper-pagination',
+                  clickable: true,
+               },
+               navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+               },
+            });
+         </script>
 
-
-
-
-   <!-- Optional JavaScript -->
-   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-   <script src="js/wow.js"></script>
-   <script src="js/page.js"></script>
-
-   <script>
-      wow = new WOW(
-         {
-            animateClass: 'animate__animated',
-            offset: 0,
-         });
-      wow.init();
-   </script>
-   <script>
-      var mySwiperBanner = new Swiper('.mySwiperBanner', {
-         slidesPerView: 1,
-         spaceBetween: 0,
-         loop: true,
-         speed: 800,
-         autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-         },
-         pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-         },
-         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-         },
-      });
-   </script>
-
-   <!-- Category Swiper -->
-   <script>
-      var categorySwiper = new Swiper('.categorySwiper', {
-         slidesPerView: 1.5,
-         spaceBetween: 20,
-         loop: true,
-         centeredSlides: false,
-         speed: 800,
-         autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-         },
-         pagination: {
-            el: ".swiper-pagination", // Connects to external element
-            type: "progressbar",
-            clickable: true,
-         },
-         breakpoints: {
-            768: {
-               slidesPerView: 2.5,
+         <!-- Category Swiper -->
+         <script>
+            var categorySwiper = new Swiper('.categorySwiper', {
+               slidesPerView: 1.5,
                spaceBetween: 20,
-            },
-            1024: {
-               slidesPerView: 4.5,
-               spaceBetween: 20,
-            },
-         },
-      });
-   </script>
+               loop: true,
+               centeredSlides: false,
+               speed: 800,
+               autoplay: {
+                  delay: 3000,
+                  disableOnInteraction: false,
+               },
+               pagination: {
+                  el: ".swiper-pagination", // Connects to external element
+                  type: "progressbar",
+                  clickable: true,
+               },
+               breakpoints: {
+                  768: {
+                     slidesPerView: 2.5,
+                     spaceBetween: 20,
+                  },
+                  1024: {
+                     slidesPerView: 4.5,
+                     spaceBetween: 20,
+                  },
+               },
+            });
+         </script>
 
-   <!-- Latest Models -->
-   <script>
-      var latestmodels = new Swiper('.latestmodels', {
-         slidesPerView: 1,
-         spaceBetween: 20,
-         loop: true,
-         centeredSlides: false,
-         speed: 800,
-         autoplay: {
-            delay: 30000,
-            disableOnInteraction: false,
-         },
-         navigation: {
-            nextEl: '.custom-next',
-            prevEl: '.custom-prev',
-         },
-         breakpoints: {
-            768: {
-               slidesPerView: 2,
+         <!-- Latest Models -->
+         <script>
+            var latestmodels = new Swiper('.latestmodels', {
+               slidesPerView: 1,
                spaceBetween: 20,
-            },
-            1024: {
+               loop: true,
+               centeredSlides: false,
+               speed: 800,
+               autoplay: {
+                  delay: 30000,
+                  disableOnInteraction: false,
+               },
+               navigation: {
+                  nextEl: '.custom-next',
+                  prevEl: '.custom-prev',
+               },
+               breakpoints: {
+                  768: {
+                     slidesPerView: 2,
+                     spaceBetween: 20,
+                  },
+                  1024: {
+                     slidesPerView: 3,
+                     spaceBetween: 20,
+                  },
+               },
+            });
+         </script>
+
+         <!-- Image Hotspot -->
+         <script>
+            const selectHotspot = (e) => {
+               const clickedHotspot = e.target.parentElement;
+               const container = clickedHotspot.parentElement;
+               const hotspots = container.querySelectorAll(".lg-hotspot");
+               hotspots.forEach(hotspot => {
+                  if (hotspot === clickedHotspot) {
+                     hotspot.classList.toggle("lg-hotspot--selected");
+                  } else {
+                     hotspot.classList.remove("lg-hotspot--selected");
+                  }
+               });
+            }
+            (() => {
+               const buttons = document.querySelectorAll(".lg-hotspot__button");
+               buttons.forEach(button => {
+                  button.addEventListener("click", selectHotspot);
+               });
+            })();
+         </script>
+
+
+         <script>
+            // Get references to modal and video
+            var videoModal = document.getElementById("videoModal");
+            var videoPlayer = document.getElementById("videoPlayer");
+
+            // Play video when modal is shown
+            videoModal.addEventListener("shown.bs.modal", function () {
+               videoPlayer.play();
+            });
+
+            // Pause and reset video when modal is hidden
+            videoModal.addEventListener("hidden.bs.modal", function () {
+               videoPlayer.pause();
+               videoPlayer.currentTime = 0; // Optional: Reset to beginning
+            });
+
+         </script>
+
+         <!-- Latest Blogs -->
+         <script>
+            var latestblog = new Swiper('.latestblog', {
+               slidesPerView: 1,
+               spaceBetween: 20,
+               loop: true,
+               centeredSlides: false,
+               speed: 800,
+               autoplay: {
+                  delay: 30000,
+                  disableOnInteraction: false,
+               },
+               breakpoints: {
+                  768: {
+                     slidesPerView: 2,
+                     spaceBetween: 20,
+                  },
+                  1024: {
+                     slidesPerView: 3,
+                     spaceBetween: 20,
+                  },
+               },
+            });
+         </script>
+
+         <!-- Brands -->
+         <script>
+            var brandslider = new Swiper('.brand-slider', {
                slidesPerView: 3,
                spaceBetween: 20,
-            },
-         },
-      });
-   </script>
-
-   <!-- Image Hotspot -->
-   <script>
-      const selectHotspot = (e) => {
-         const clickedHotspot = e.target.parentElement;
-         const container = clickedHotspot.parentElement;
-         const hotspots = container.querySelectorAll(".lg-hotspot");
-         hotspots.forEach(hotspot => {
-            if (hotspot === clickedHotspot) {
-               hotspot.classList.toggle("lg-hotspot--selected");
-            } else {
-               hotspot.classList.remove("lg-hotspot--selected");
-            }
-         });
-      }
-      (() => {
-         const buttons = document.querySelectorAll(".lg-hotspot__button");
-         buttons.forEach(button => {
-            button.addEventListener("click", selectHotspot);
-         });
-      })();
-   </script>
+               loop: true,
+               speed: 800,
+               autoplay: {
+                  delay: 30000,
+                  disableOnInteraction: false,
+               },
+               breakpoints: {
+                  768: {
+                     slidesPerView: 4,
+                     spaceBetween: 20,
+                  },
+                  1024: {
+                     slidesPerView: 5,
+                     spaceBetween: 20,
+                  },
+               },
+            });
+         </script>
 
 </body>
 
