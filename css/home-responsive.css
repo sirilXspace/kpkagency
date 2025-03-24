@@ -44,6 +44,8 @@
     .latestmodels h3{font-size:21px;}
     .latestblog h3{font-size:18px;line-height:28px;}
     .our-brands h2{font-size:34px;}
+    footer .box ul li a,footer .box a,footer .box p{font-size:13px;}
+    footer .box ul.social-icons a {font-size:18px;}
 
 }
 
@@ -91,6 +93,8 @@
     .video_block .video-container .play-button::before{width:60px;height:60px;}
     .our-brands h2{font-size:28px;}
     .our-brands{padding-left:100px;padding-top:70px;}
+    footer .box h4{margin-bottom:25px;}
+    .ftr_logo{width:200px;}
 }
 
 @media (max-width: 767.98px) {
@@ -131,6 +135,8 @@
     .custom-margin2{margin-top:30px;}
     .welcome-to-kpk .img-box{margin-bottom:30px;}
     .welcome-to-kpk .img-box-2{margin-top:48px;}
+    footer .bx2{padding-left:0%;}
+    footer .box h4{font-size:18px;}
 
 }
 
@@ -198,4 +204,12 @@
     
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+    footer .box ul li a, footer .box a, footer .box p {
+        font-size: 12px;
+    }
+    .ftr_logo{width:150px;}
+    footer .box h4{margin-bottom:20px;}
+    .copy-rite{padding-top:15px;margin-top:15px;}
+}
