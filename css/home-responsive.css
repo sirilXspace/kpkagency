@@ -23,6 +23,7 @@
     .welcome-to-kpk .img-box img {
         height: 660px;
     }
+    .latestmodels{width:calc(100vw - ((100vw - 1400px) / 2) - 180px);}
 }
 
 @media (max-width: 1199.98px) {
@@ -39,6 +40,8 @@
     .description {
         padding-top: 40px;
     }
+    .latestmodels{width:calc(100% - 100px);}
+    .latestmodels h3{font-size:21px;}
 }
 
 @media (max-width: 991.98px) {
@@ -74,6 +77,14 @@
     .lg-hotspot__button:after{width:11px;height:11px;}
     .lg-hotspot__label{width:140px;padding:10px}
     .lg-hotspot__label img{width:120px;}
+    .custom-next,
+    .custom-prev {
+        width: 50px;
+        height: 35px;
+    }
+    .latestmodels .latest-model-img{margin-bottom:20px;}
+    .latestmodels h3{font-size:18px;}
+    .latestmodels{margin-left:70px;width:calc(100% - 70px);}
 }
 
 @media (max-width: 767.98px) {
