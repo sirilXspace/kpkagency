@@ -1,4 +1,9 @@
-@media (max-width: 1600px) {}
+@media (min-width: 1500px) {
+    .img-grid {
+        margin-left: calc(-1 * max((100vw - 1500px) / 2, 0px));
+      }
+
+}
 
 @media (max-width: 1600px) {
 
@@ -24,6 +29,10 @@
         height: 660px;
     }
     .latestmodels{width:calc(100vw - ((100vw - 1400px) / 2) - 180px);}
+    .inner-banner-content h1{font-size:54px;}
+    .img-grid img{height:285px;}
+    .welcome-to-kpk .img-box::after{width:calc(100% - 110px)}
+      
 }
 
 @media (max-width: 1199.98px) {
@@ -46,6 +55,13 @@
     .our-brands h2{font-size:34px;}
     footer .box ul li a,footer .box a,footer .box p{font-size:13px;}
     footer .box ul.social-icons a {font-size:18px;}
+    .match-style .bx-left{padding-right:50px;}
+    .welcome-to-kpk .img-box{padding-right:50px;}
+    .img-grid img{height:200px;}
+    .welcome-to-kpk .text-description{padding-right:50px;}
+    .welcome-to-kpk .img-box-2{margin-top:50px;}
+    .client-slider .client-img{margin-bottom:30px;}
+    .client-slider h4{font-size:21px;}
 
 }
 
@@ -53,6 +69,11 @@
 
     .mySwiperBanner .swiper-button-next,
     .mySwiperBanner .swiper-button-prev {
+        width: 50px;
+        height: 35px;
+    }
+    .feedback-slider .swiper-button-next,
+    .feedback-slider .swiper-button-prev {
         width: 50px;
         height: 35px;
     }
@@ -95,6 +116,7 @@
     .our-brands{padding-left:100px;padding-top:70px;}
     footer .box h4{margin-bottom:25px;}
     .ftr_logo{width:200px;}
+    .client_face img{width:70px;}
 }
 
 @media (max-width: 767.98px) {
@@ -102,23 +124,26 @@
     .welcome-to-kpk .img-box {
         padding-right: 30px;
     }
-
+    /*
     .welcome-to-kpk .img-box img {
         height: 240px;
     }
+        */
 
     .welcome-to-kpk .img-box::after {
         left: 15px;
         top: 15px;
         right: 15px;
         bottom: 15px;
-        width: calc(100% - 60px);
+        width: calc(100% - 30px);
         height: calc(100% - 30px);
     }
 
+    /*
     .welcome-to-kpk .img-box-2 img {
         height: 240px;
     }
+    */
 
     .welcome-to-kpk .img-box-2::after {
         left: 15px;
@@ -130,14 +155,39 @@
     }
 
     .welcome-to-kpk .text-description {
-        padding-right: 50px;
+        padding-right: 0px;
     }
     .custom-margin2{margin-top:30px;}
     .welcome-to-kpk .img-box{margin-bottom:30px;}
     .welcome-to-kpk .img-box-2{margin-top:48px;}
     footer .bx2{padding-left:0%;}
     footer .box h4{font-size:18px;}
+    .inner-banner-content h1{font-size:38px;}
 
+    .img-box-3::after {
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+    }
+    .welcome-to-kpk .img-box{padding-right:0px;}
+    .welcome-to-kpk .img-box-2{margin-top:30px;}
+    .contact-info {
+        text-align: center;
+    }
+    .top-bar p,
+    ul.contact-info a {
+        text-align: center;
+    }
+    .welcome-to-kpk .bx-right{margin-top:40px;}
+    .building-bathroom{margin-bottom:40px;}
+    .match-style .bx-left{padding-right:0px;}
+    .img-grid{margin-left:0px;}
+    .match-style .img-box-3{margin-top:25px;margin-bottom:25px;}
+    .match-style .bx-left .btn-c2{margin-top:30px;}
+    .match-style .bx-left .img-grid{margin-top:40px;}
+    .title-wrap{padding-right:0px;}
+    .about .welcome-to-kpk .bx-right{margin-top:20px;}
 }
 
 @media (max-width: 575.98px) {
@@ -147,14 +197,9 @@
         font-size: 12px;
     }
 
-    .top-bar p,
-    ul.contact-info a {
-        text-align: center;
-    }
 
-    .contact-info {
-        text-align: center;
-    }
+
+    
 
     ul.contact-info li:nth-child(2) {
         margin-left: 10px;
@@ -184,7 +229,6 @@
 
     .welcome-to-kpk .img-box{padding-right:0px;}
     .welcome-to-kpk .img-box::after{width:calc(100% - 30px)}
-    .custom-margin2{margin-bottom:30px;}
     .welcome-to-kpk .img-box-2{margin-top:28px;}
     .lg-hotspot__label{width:100px;}
     .lg-hotspot__label img{width:90px;}
@@ -201,7 +245,12 @@
         padding-left: 80px;
         padding-top: 60px;
     }
-    
+    .match-style .bx-left{padding-right:0px;}
+    .welcome-to-kpk .img-box img{height:300px;}
+    .feedback-wrapper{margin-top:25px;}
+    .client-slider h4{font-size:18px;}
+    .client-slider .client-img{margin-bottom:20px;}
+    .testi-wrapper{margin-top:40px;}
 }
 
 @media (max-width: 480px) {
@@ -209,7 +258,7 @@
     footer .box ul li a, footer .box a, footer .box p {
         font-size: 12px;
     }
-    .ftr_logo{width:150px;}
     footer .box h4{margin-bottom:20px;}
+    .ftr_logo{width:150px;}
     .copy-rite{padding-top:15px;margin-top:15px;}
 }

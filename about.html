@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>KPK Agencies</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="images/favicon.png">
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+   <link href="css/home-style.css" rel="stylesheet">
+   <link href="css/home-responsive.css" rel="stylesheet">
+   <link href="css/menu.css" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+   <a href="javascript:" id="return-to-top"><i class="fas fa-angle-up pulse"></i></a>
+
+   <!-- <div id="preloader">
+      <div class="loading-text">
+         <span class="loading-text-words">MEGAMART</span>
+
+      </div>
+   </div> -->
+
+   <!-- Bootstrap Modal -->
+   <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+         <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+               <!-- Video Element -->
+               <video id="videoPlayer" width="100%" controls>
+                  <source src="videos/video.mp4" type="video/mp4" autoplay muted />
+                  Your browser does not support HTML video.
+               </video>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Header -->
+   <div class="top-bar">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-6">
+               <p>© Copyright 2023 All rights reserved.</p>
+            </div>
+            <div class="col-md-6">
+               <ul class="contact-info">
+                  <li><a href="mailto:sales@kpkagencies.com"><i class="me-1"><img
+                              src="images/call_ic.png"></i>sales@kpkagencies.com</a></li>
+                  <li><a href="tel:+919495000831"><i class="me-1"><img src="images/email_ic.png"></i>+91-9495 000
+                        831</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <header class="header">
+      <div class="container">
+         <div class="d-flex  align-items-center justify-content-between">
+            <div class="logo">
+               <a href="#"><img src="images/logo-black.png" alt="logo"></a>
+            </div>
+            <!-- menu start here -->
+            <div class="header-item item-center">
+               <div class="menu-overlay"></div>
+               <nav class="menu">
+                  <div class="mobile-menu-head">
+                     <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                     <div class="current-menu-title"></div>
+                     <div class="mobile-menu-close">&times;</div>
+                  </div>
+                  <ul class="menu-main">
+                     <li>
+                        <a href="#">Home</a>
+                     </li>
+                     <li>
+                        <a href="#">About Us</a>
+                     </li>
+
+                     <li class="menu-item-has-children">
+                        <a href="#">Products <i class="fa fa-angle-down"></i></a>
+                        <div class="sub-menu">
+                           <ul>
+                              <li><a href="#">Products 1</a></li>
+                              <li><a href="#">Products 2</a></li>
+                              <li><a href="#">Products 3</a></li>
+                              <li><a href="#">Products 4</a></li>
+                              <li><a href="#">Products 5</a></li>
+                           </ul>
+                        </div>
+
+                     </li>
+                     <li>
+                        <a href="#">Blog</a>
+                     </li>
+                     <li>
+                        <a href="#">Contact Us</a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="mobile-menu-trigger">
+                  <span></span>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </header>
+
+   <section class="inner-banner position-relative">
+      <img src="images/about-banner.jpg" alt="banner" class="w-100 inner-banner-img">
+      <div class="container">
+         <div class="inner-banner-content">
+            <h1 class="inner-title">About Us</h1>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><i class="fa fa-angle-right"></i></li>
+               <li>About Us</li>
+            </ul>
+         </div>
+      </div>
+   </section>
+
+   <div class="about">
+
+
+
+      <section class="welcome-to-kpk custompad">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-7">
+                  <div class="bx-left">
+                     <div class="img-box">
+                        <img src="images/we-are-bathroom-experts.jpg" alt="welcome to kpk" class="w-100">
+                     </div>
+                     <div class="text-description">
+                        <p>The company is recognized as a world leader in bathroom design and offers products and
+                           services
+                           of exceptional quality.</p>
+                        <p>dNam ac egestas est. Mauris et pulvinar risus, at tincidunt lorem. Maecenas tristique sit
+                           amet
+                           odio sit amet aliquet. dNam ac egestas est. Mauris et pulvinar risus. dNam ac egestas est.
+                           Mauris et pulvinar risus, at tincidunt lorem. Maecenas tristique sit amet odio sit amet
+                           aliquet.
+                           dNam ac egestas est. Mauris et pulvinar risus.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="bx-right">
+                     <div class="title-wrap">
+                        <span class="eyebrow">WELCOME TO COMPANY</span>
+                        <h1 class="heading">We are bathrooms & experts.</h1>
+                     </div>
+                     <div class="img-box-2">
+                        <img src="images/we-are-bathroom-experts-2.jpg" alt="welcome to kpk" class="w-100">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="match-style">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="bx-left">
+                     <div class="title-wrap">
+                        <span class="eyebrow">MATCH STYLE</span>
+                        <h2 class="heading">We design elegant accessories. choose your style.</h2>
+                        <a href="#" class="btn-c2">VIEW PRODUCTS<i class="ms-2"><img src="images/arrow-right.png"
+                                 alt="icon"></i></a>
+                     </div>
+                     <div class="d-flex gap-4 img-grid">
+                        <div class="col"><img src="images/match-style-img-01.jpg" alt="image"></div>
+                        <div class="col"><img src="images/match-style-img-02.jpg" alt="image"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="bx-right">
+                     <div class="img-box-3">
+                        <img src="images/match-style-03.jpg" alt="welcome to kpk" class="w-100">
+                     </div>
+                     <div class="text-description">
+                        <p class="mb-0">The company is recognized as a world leader in bathroom design and offers products and
+                           services of exceptional quality.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="meet-our-team custompad">
+         <div class="container">
+            <div class="row">
+               <div class="title-wrap text-center pe-0">
+                  <span class="eyebrow">MEET OUR TEAM</span>
+                  <h2 class="heading">Creative minds always<br> think something.</h2>
+               </div>
+               <div class="testi-wrapper">
+                  <div class="swiper client-slider">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div class="client-img">
+                              <img src="images/testi-img-01.jpg" alt="image">
+                           </div>
+                           <h4>John Portman</h4>
+                           <p class="mb-0">Designer</p>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="client-img">
+                              <img src="images/testi-img-02.jpg" alt="image">
+                           </div>
+                           <h4>Alison Clutcher</h4>
+                           <p class="mb-0">Designer</p>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="client-img">
+                              <img src="images/testi-img-03.jpg" alt="image">
+                           </div>
+                           <h4>Peter Jefferson</h4>
+                           <p class="mb-0">Designer</p>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="client-img">
+                              <img src="images/testi-img-04.jpg" alt="image">
+                           </div>
+                           <h4>Julie Crawford</h4>
+                           <p class="mb-0">Designer</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+      <div class="video_block">
+         <div class="video-container">
+            <img src="images/video_bg_2.jpg" alt="video" class="w-100">
+            <button class="play-button" data-bs-toggle="modal" data-bs-target="#videoModal"><img
+                  src="images/play-linear.png"></button>
+         </div>
+      </div>
+
+      <section class="testimonial custompad">
+         <div class="container">
+            <div class="row">
+               <div class="title-wrap text-center pe-0">
+                  <span class="eyebrow">OUR HAPPY CLIENTS</span>
+                  <h2 class="heading">Here's what our satisfied <br> clients are saying</h2>
+               </div>
+
+               <div class="feedback-wrapper">
+                  <div class="swiper feedback-slider">
+                     <div class="swiper-wrapper bg_2">
+                        <div class="swiper-slide">
+                           <i class="d-block text-center mb-3"><img src="images/testi_ic.png" alt="icon"></i>
+                           <p class="text-center">We carry Wellsford Cabinetry among several others for our kitchen
+                              design and remodel services. Wellsford has the best quality I have seen, with fair pricing
+                              and excellent, excellent customer service. They are my “go to” line.</p>
+                           <div class="client_face text-center mt-4">
+                              <img src="images/testi_face.png" alt="image">
+                           </div>
+                           <h5 class="text-center mt-4">Peter Jefferson</h5>
+                           <p class="text-center mt-1">Fresh Design</p>
+                        </div>
+                        <div class="swiper-slide">
+                           <i class="d-block text-center mb-3"><img src="images/testi_ic.png" alt="icon"></i>
+                           <p class="text-center">We carry Wellsford Cabinetry among several others for our kitchen
+                              design and remodel services. Wellsford has the best quality I have seen, with fair pricing
+                              and excellent, excellent customer service. They are my “go to” line.</p>
+                           <div class="client_face text-center mt-4">
+                              <img src="images/testi_face.png" alt="image">
+                           </div>
+                           <h5 class="text-center mt-4">Peter Jefferson</h5>
+                           <p class="text-center mt-1">Fresh Design</p>
+                        </div>
+                     </div>
+                     <div class="swiper-button-next"></div>
+                     <div class="swiper-button-prev"></div>
+                  </div>
+               </div>
+
+
+
+            </div>
+         </div>
+      </section>
+   </div>
+
+   <footer class="footer f_BG">
+      <div class="section-1">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3 col-6">
+                  <div class="box bx1">
+                     <img src="images/footer_logo.png" alt="logo" class="ftr_logo">
+                     <p class="mt-3">KPK Agencies is a leading supplier of bathroom products in Kerala. We have a wide
+                        range of
+                        products that include sanitaryware, faucets, showers, bathtubs, and more.</p>
+                     <ul class="social-icons mt-5">
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                     </ul>
+
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="box bx2">
+                     <h4>Categories</h4>
+                     <ul>
+                        <li><a href="#">Sanitaryware</a></li>
+                        <li><a href="#">Steam Shower Rooms</a></li>
+                        <li><a href="#">Shower Cubicles & Shower Panels</a></li>
+                        <li><a href="#">Bathtubs</a></li>
+                        <li><a href="#">Kitchen Sinks</a></li>
+                        <li><a href="#">Water Heaters</a></li>
+                        <li><a href="#">Faucets</a></li>
+                     </ul>
+
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="box bx3">
+                     <h4>Information</h4>
+                     <ul>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="box bx4">
+                     <h4>Contact</h4>
+                     <p>KPK Rialto, Thana, Kannur-670012, Kerala, India</p>
+                     <p>0497 - 270 1865 / 0497 - 2709026</p>
+                     <p>KPK Agencies, Perumba, Payyanur-670307, Kerala, India</p>
+                     <p>0498 - 5207141 </p>
+                     <p><a href="#">sales@kpkagencies.com</a></p>
+                     <p><a href="#">Mob no - (+91) - 9495 - 000 - 831</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="copy-rite text-center">
+            <p class="mb-0">© Copyright 2023 All rights reserved.</p>
+         </div>
+      </div>
+
+   </footer>
+
+
+
+
+
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="js/wow.js"></script>
+   <script src="js/page.js"></script>
+
+   <script>
+      wow = new WOW(
+         {
+            animateClass: 'animate__animated',
+            offset: 0,
+         });
+      wow.init();
+   </script>
+
+
+
+   <script>
+      // Get references to modal and video
+      var videoModal = document.getElementById("videoModal");
+      var videoPlayer = document.getElementById("videoPlayer");
+
+      // Play video when modal is shown
+      videoModal.addEventListener("shown.bs.modal", function () {
+         videoPlayer.play();
+      });
+
+      // Pause and reset video when modal is hidden
+      videoModal.addEventListener("hidden.bs.modal", function () {
+         videoPlayer.pause();
+         videoPlayer.currentTime = 0; // Optional: Reset to beginning
+      });
+
+   </script>
+
+   <!-- Brands -->
+   <script>
+      var clientslider = new Swiper('.client-slider', {
+         slidesPerView: 2,
+         spaceBetween: 20,
+         loop: true,
+         speed: 800,
+         autoplay: {
+            delay: 30000,
+            disableOnInteraction: false,
+         },
+         breakpoints: {
+            768: {
+               slidesPerView: 4,
+               spaceBetween: 20,
+            },
+            1024: {
+               slidesPerView: 4,
+               spaceBetween: 20,
+            },
+         },
+      });
+   </script>
+
+   <!-- Brands -->
+   <script>
+      var feedbackslider = new Swiper('.feedback-slider', {
+         slidesPerView: 1,
+         spaceBetween: 20,
+         loop: true,
+         speed: 800,
+         autoplay: {
+            delay: 30000,
+            disableOnInteraction: false,
+         },
+         navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+         },
+      });
+   </script>
+</body>
+
+</html>
