@@ -1,7 +1,7 @@
 @media (min-width: 1500px) {
     .img-grid {
         margin-left: calc(-1 * max((100vw - 1500px) / 2, 0px));
-      }
+    }
 
 }
 
@@ -28,11 +28,25 @@
     .welcome-to-kpk .img-box img {
         height: 660px;
     }
-    .latestmodels{width:calc(100vw - ((100vw - 1400px) / 2) - 180px);}
-    .inner-banner-content h1{font-size:54px;}
-    .img-grid img{height:285px;}
-    .welcome-to-kpk .img-box::after{width:calc(100% - 110px)}
-      
+
+    .latestmodels {
+        width: calc(100vw - ((100vw - 1400px) / 2) - 180px);
+    }
+
+    .inner-banner-content h1 {
+        font-size: 54px;
+    }
+
+    .img-grid img {
+        height: 285px;
+    }
+
+    .welcome-to-kpk .img-box::after {
+        width: calc(100% - 110px)
+    }
+    .productSwipercontaincer{width:80%;}
+
+
 }
 
 @media (max-width: 1199.98px) {
@@ -49,19 +63,63 @@
     .description {
         padding-top: 40px;
     }
-    .latestmodels{width:calc(100% - 100px);}
-    .latestmodels h3{font-size:21px;}
-    .latestblog h3{font-size:18px;line-height:28px;}
-    .our-brands h2{font-size:34px;}
-    footer .box ul li a,footer .box a,footer .box p{font-size:13px;}
-    footer .box ul.social-icons a {font-size:18px;}
-    .match-style .bx-left{padding-right:50px;}
-    .welcome-to-kpk .img-box{padding-right:50px;}
-    .img-grid img{height:200px;}
-    .welcome-to-kpk .text-description{padding-right:50px;}
-    .welcome-to-kpk .img-box-2{margin-top:50px;}
-    .client-slider .client-img{margin-bottom:30px;}
-    .client-slider h4{font-size:21px;}
+
+    .latestmodels {
+        width: calc(100% - 100px);
+    }
+
+    .latestmodels h3 {
+        font-size: 21px;
+    }
+
+    .latestblog h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .our-brands h2 {
+        font-size: 34px;
+    }
+
+    footer .box ul li a,
+    footer .box a,
+    footer .box p {
+        font-size: 13px;
+    }
+
+    footer .box ul.social-icons a {
+        font-size: 18px;
+    }
+
+    .match-style .bx-left {
+        padding-right: 50px;
+    }
+
+    .welcome-to-kpk .img-box {
+        padding-right: 50px;
+    }
+
+    .img-grid img {
+        height: 200px;
+    }
+
+    .welcome-to-kpk .text-description {
+        padding-right: 50px;
+    }
+
+    .welcome-to-kpk .img-box-2 {
+        margin-top: 50px;
+    }
+
+    .client-slider .client-img {
+        margin-bottom: 30px;
+    }
+
+    .client-slider h4 {
+        font-size: 21px;
+    }
+    .prdt-blk .img-box-4{margin-bottom:20px;}
+    .prdt-blk h4{font-size:18px;}
 
 }
 
@@ -72,6 +130,7 @@
         width: 50px;
         height: 35px;
     }
+
     .feedback-slider .swiper-button-next,
     .feedback-slider .swiper-button-prev {
         width: 50px;
@@ -99,24 +158,80 @@
     .heading {
         font-size: 28px;
     }
-    .lg-hotspot__button{width:20px;height:20px;}
-    .lg-hotspot__button:after{width:11px;height:11px;}
-    .lg-hotspot__label{width:140px;padding:10px}
-    .lg-hotspot__label img{width:120px;}
+
+    .lg-hotspot__button {
+        width: 20px;
+        height: 20px;
+    }
+
+    .lg-hotspot__button:after {
+        width: 11px;
+        height: 11px;
+    }
+
+    .lg-hotspot__label {
+        width: 140px;
+        padding: 10px
+    }
+
+    .lg-hotspot__label img {
+        width: 120px;
+    }
+
     .custom-next,
     .custom-prev {
         width: 50px;
         height: 35px;
     }
-    .latestmodels .latest-model-img{margin-bottom:20px;}
-    .latestmodels h3{font-size:18px;}
-    .latestmodels{margin-left:70px;width:calc(100% - 70px);}
-    .video_block .video-container .play-button::before{width:60px;height:60px;}
-    .our-brands h2{font-size:28px;}
-    .our-brands{padding-left:100px;padding-top:70px;}
-    footer .box h4{margin-bottom:25px;}
-    .ftr_logo{width:200px;}
-    .client_face img{width:70px;}
+    .custom-next2{
+      right: -20px;  
+      width: 40px;
+      height: 25px;
+    }
+    .custom-prev2{
+      left: -20px;  
+      width: 40px;
+      height: 25px;
+    }
+
+    .latestmodels .latest-model-img {
+        margin-bottom: 20px;
+    }
+
+    .latestmodels h3 {
+        font-size: 18px;
+    }
+
+    .latestmodels {
+        margin-left: 70px;
+        width: calc(100% - 70px);
+    }
+
+    .video_block .video-container .play-button::before {
+        width: 60px;
+        height: 60px;
+    }
+
+    .our-brands h2 {
+        font-size: 28px;
+    }
+
+    .our-brands {
+        padding-left: 100px;
+        padding-top: 70px;
+    }
+
+    footer .box h4 {
+        margin-bottom: 25px;
+    }
+
+    .ftr_logo {
+        width: 200px;
+    }
+
+    .client_face img {
+        width: 70px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -124,6 +239,7 @@
     .welcome-to-kpk .img-box {
         padding-right: 30px;
     }
+
     /*
     .welcome-to-kpk .img-box img {
         height: 240px;
@@ -157,12 +273,30 @@
     .welcome-to-kpk .text-description {
         padding-right: 0px;
     }
-    .custom-margin2{margin-top:30px;}
-    .welcome-to-kpk .img-box{margin-bottom:30px;}
-    .welcome-to-kpk .img-box-2{margin-top:48px;}
-    footer .bx2{padding-left:0%;}
-    footer .box h4{font-size:18px;}
-    .inner-banner-content h1{font-size:38px;}
+
+    .custom-margin2 {
+        margin-top: 30px;
+    }
+
+    .welcome-to-kpk .img-box {
+        margin-bottom: 30px;
+    }
+
+    .welcome-to-kpk .img-box-2 {
+        margin-top: 48px;
+    }
+
+    footer .bx2 {
+        padding-left: 0%;
+    }
+
+    footer .box h4 {
+        font-size: 18px;
+    }
+
+    .inner-banner-content h1 {
+        font-size: 38px;
+    }
 
     .img-box-3::after {
         left: 15px;
@@ -170,24 +304,69 @@
         right: 15px;
         bottom: 15px;
     }
-    .welcome-to-kpk .img-box{padding-right:0px;}
-    .welcome-to-kpk .img-box-2{margin-top:30px;}
+
+    .welcome-to-kpk .img-box {
+        padding-right: 0px;
+    }
+
+    .welcome-to-kpk .img-box-2 {
+        margin-top: 30px;
+    }
+
     .contact-info {
         text-align: center;
     }
+
     .top-bar p,
     ul.contact-info a {
         text-align: center;
     }
-    .welcome-to-kpk .bx-right{margin-top:40px;}
-    .building-bathroom{margin-bottom:40px;}
-    .match-style .bx-left{padding-right:0px;}
-    .img-grid{margin-left:0px;}
-    .match-style .img-box-3{margin-top:25px;margin-bottom:25px;}
-    .match-style .bx-left .btn-c2{margin-top:30px;}
-    .match-style .bx-left .img-grid{margin-top:40px;}
-    .title-wrap{padding-right:0px;}
-    .about .welcome-to-kpk .bx-right{margin-top:20px;}
+
+    .welcome-to-kpk .bx-right {
+        margin-top: 40px;
+    }
+
+    .building-bathroom {
+        margin-bottom: 40px;
+    }
+
+    .match-style .bx-left {
+        padding-right: 0px;
+    }
+
+    .img-grid {
+        margin-left: 0px;
+    }
+
+    .match-style .img-box-3 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .match-style .bx-left .btn-c2 {
+        margin-top: 30px;
+    }
+
+    .match-style .bx-left .img-grid {
+        margin-top: 40px;
+    }
+
+    .title-wrap {
+        padding-right: 0px;
+    }
+
+    .about .welcome-to-kpk .bx-right {
+        margin-top: 20px;
+    }
+    .productSwiper .swiper-slide h4 {
+        font-size: 18px;
+    }
+    .prdt-blk{margin-top:20px;margin-bottom:10px;}
+    .filter_dropdown button{font-size:12px;}
+    .prdt-blk h4{font-size:15px;}
+    .prdt-blk .prdt_cate{font-size:12px;line-height:12px;}
+    .pagination .page-link{font-size:12px;width:30px;height:30px;line-height:28px;}
+    .pagination .page-link.next{font-size:12px;}
 }
 
 @media (max-width: 575.98px) {
@@ -199,7 +378,7 @@
 
 
 
-    
+
 
     ul.contact-info li:nth-child(2) {
         margin-left: 10px;
@@ -227,38 +406,113 @@
         width: calc(96% - 200px);
     }
 
-    .welcome-to-kpk .img-box{padding-right:0px;}
-    .welcome-to-kpk .img-box::after{width:calc(100% - 30px)}
-    .welcome-to-kpk .img-box-2{margin-top:28px;}
-    .lg-hotspot__label{width:100px;}
-    .lg-hotspot__label img{width:90px;}
-    .lg-hotspot__label p{font-size:12px;}
-    .lg-hotspot__button{width:15px;height:15px;}
-    .lg-hotspot__button:after{width:5px;height:5px;}
-    .building-bathroom{margin-bottom:30px;}
-    .lg-hotspot__button:after{border:3px solid rgb(255, 255, 255,0.5)}
-    .btn-c2,.btn-c{padding:7px 17px}
-    .video_block .video-container .play-button img{width:30px;}
-    .video_block .video-container .play-button::before{border:5px solid #fff}
-    .our-brands h2{font-size:20px;}
+    .welcome-to-kpk .img-box {
+        padding-right: 0px;
+    }
+
+    .welcome-to-kpk .img-box::after {
+        width: calc(100% - 30px)
+    }
+
+    .welcome-to-kpk .img-box-2 {
+        margin-top: 28px;
+    }
+
+    .lg-hotspot__label {
+        width: 100px;
+    }
+
+    .lg-hotspot__label img {
+        width: 90px;
+    }
+
+    .lg-hotspot__label p {
+        font-size: 12px;
+    }
+
+    .lg-hotspot__button {
+        width: 15px;
+        height: 15px;
+    }
+
+    .lg-hotspot__button:after {
+        width: 5px;
+        height: 5px;
+    }
+
+    .building-bathroom {
+        margin-bottom: 30px;
+    }
+
+    .lg-hotspot__button:after {
+        border: 3px solid rgb(255, 255, 255, 0.5)
+    }
+
+    .btn-c2,
+    .btn-c {
+        padding: 7px 17px
+    }
+
+    .video_block .video-container .play-button img {
+        width: 30px;
+    }
+
+    .video_block .video-container .play-button::before {
+        border: 5px solid #fff
+    }
+
+    .our-brands h2 {
+        font-size: 20px;
+    }
+
     .our-brands {
         padding-left: 80px;
         padding-top: 60px;
     }
-    .match-style .bx-left{padding-right:0px;}
-    .welcome-to-kpk .img-box img{height:300px;}
-    .feedback-wrapper{margin-top:25px;}
-    .client-slider h4{font-size:18px;}
-    .client-slider .client-img{margin-bottom:20px;}
-    .testi-wrapper{margin-top:40px;}
+
+    .match-style .bx-left {
+        padding-right: 0px;
+    }
+
+    .welcome-to-kpk .img-box img {
+        height: 300px;
+    }
+
+    .feedback-wrapper {
+        margin-top: 25px;
+    }
+
+    .client-slider h4 {
+        font-size: 18px;
+    }
+
+    .client-slider .client-img {
+        margin-bottom: 20px;
+    }
+
+    .testi-wrapper {
+        margin-top: 40px;
+    }
 }
 
 @media (max-width: 480px) {
 
-    footer .box ul li a, footer .box a, footer .box p {
+    footer .box ul li a,
+    footer .box a,
+    footer .box p {
         font-size: 12px;
     }
-    footer .box h4{margin-bottom:20px;}
-    .ftr_logo{width:150px;}
-    .copy-rite{padding-top:15px;margin-top:15px;}
+
+    footer .box h4 {
+        margin-bottom: 20px;
+    }
+
+    .ftr_logo {
+        width: 150px;
+    }
+
+    .copy-rite {
+        padding-top: 15px;
+        margin-top: 15px;
+    }
 }
