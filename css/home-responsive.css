@@ -44,11 +44,27 @@
     .welcome-to-kpk .img-box::after {
         width: calc(100% - 110px)
     }
-    .productSwipercontaincer{width:80%;}
-    .blog-details .bx-right{padding-left:40px;}
-    .blog-details h1{font-size:36px;line-height:38px;}
-    .blog-details .highlight p{font-size:15px;}
-    .contactus-thumb .c_no{font-size:26px;}
+
+    .productSwipercontaincer {
+        width: 80%;
+    }
+
+    .blog-details .bx-right {
+        padding-left: 40px;
+    }
+
+    .blog-details h1 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .blog-details .highlight p {
+        font-size: 15px;
+    }
+
+    .contactus-thumb .c_no {
+        font-size: 26px;
+    }
 
 
 }
@@ -122,9 +138,27 @@
     .client-slider h4 {
         font-size: 21px;
     }
-    .prdt-blk .img-box-4{margin-bottom:20px;}
-    .prdt-blk h4{font-size:18px;}
-    .blog-details .bx-right{padding-left:20px}
+
+    .prdt-blk .img-box-4 {
+        margin-bottom: 20px;
+    }
+
+    .prdt-blk h4 {
+        font-size: 18px;
+    }
+
+    .blog-details .bx-right {
+        padding-left: 20px
+    }
+
+    .address ul li,
+    .address ul li a {
+        font-size: 13px;
+    }
+
+    .contactus .bx-left {
+        padding-right: 5%;
+    }
 
 }
 
@@ -188,15 +222,17 @@
         width: 50px;
         height: 35px;
     }
-    .custom-next2{
-      right: -20px;  
-      width: 40px;
-      height: 25px;
+
+    .custom-next2 {
+        right: -20px;
+        width: 40px;
+        height: 25px;
     }
-    .custom-prev2{
-      left: -20px;  
-      width: 40px;
-      height: 25px;
+
+    .custom-prev2 {
+        left: -20px;
+        width: 40px;
+        height: 25px;
     }
 
     .latestmodels .latest-model-img {
@@ -237,16 +273,54 @@
     .client_face img {
         width: 70px;
     }
-    .recent-posts img{width:70px;height:80px;}
-    .recent-posts h2{font-size:18px;line-height:1.5rem;}
-    .recent-posts .date{margin-bottom:5px;}
-    .blog-details .bx-right .contactus-thumb h4{font-size:18px;}
-    .contactus-thumb .c_no{font-size:18px;}
-    .blog-details .bx-right h4{font-size:20px;margin-bottom:20px;}
-    .gallery-wrap .gallery{margin-top:30px;}
-    .blog-details h1{font-size:30px;line-height:32px;}
-    .recent-posts{margin-top:30px;}
-    .blog-details .bx-right{padding-left:0px;}
+
+    .recent-posts img {
+        width: 70px;
+        height: 80px;
+    }
+
+    .recent-posts h2 {
+        font-size: 18px;
+        line-height: 1.5rem;
+    }
+
+    .recent-posts .date {
+        margin-bottom: 5px;
+    }
+
+    .blog-details .bx-right .contactus-thumb h4 {
+        font-size: 18px;
+    }
+
+    .contactus-thumb .c_no {
+        font-size: 18px;
+    }
+
+    .blog-details .bx-right h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .gallery-wrap .gallery {
+        margin-top: 30px;
+    }
+
+    .blog-details h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .recent-posts {
+        margin-top: 30px;
+    }
+
+    .blog-details .bx-right {
+        padding-left: 0px;
+    }
+
+    .address ul {
+        margin-bottom: 25px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -369,24 +443,80 @@
     .about .welcome-to-kpk .bx-right {
         margin-top: 20px;
     }
+
     .productSwiper .swiper-slide h4 {
         font-size: 18px;
     }
-    .prdt-blk{margin-top:20px;margin-bottom:10px;}
-    .filter_dropdown button{font-size:12px;}
-    .prdt-blk h4{font-size:15px;}
-    .prdt-blk .prdt_cate{font-size:12px;line-height:12px;}
-    .pagination .page-link{font-size:12px;width:30px;height:30px;line-height:28px;}
-    .pagination .page-link.next{font-size:12px;}
+
+    .prdt-blk {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .filter_dropdown button {
+        font-size: 12px;
+    }
+
+    .prdt-blk h4 {
+        font-size: 15px;
+    }
+
+    .prdt-blk .prdt_cate {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .pagination .page-link {
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        line-height: 28px;
+    }
+
+    .pagination .page-link.next {
+        font-size: 12px;
+    }
+
     .custom-margin2 {
         margin-top: 25px;
     }
-    .date{margin-bottom:10px;}
-    .contactus-thumb{height:420px;}
-    .contactus-thumb .content{margin-top:120px;}
-    .blog-details h1{font-size:18px;line-height:28px;}
-    .blog-details p{font-size:13px;}
-    .blog-details .highlight p{font-size:13px;}
+
+    .date {
+        margin-bottom: 10px;
+    }
+
+    .contactus-thumb {
+        height: 420px;
+    }
+
+    .contactus-thumb .content {
+        margin-top: 120px;
+    }
+
+    .blog-details h1 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .blog-details p {
+        font-size: 13px;
+    }
+
+    .blog-details .highlight p {
+        font-size: 13px;
+    }
+
+    .address h5 {
+        font-size: 18px;
+    }
+
+    .address ul li {
+        margin-bottom: 15px;
+    }
+
+    .contactus .bx-left {
+        padding-right: 0px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -483,7 +613,7 @@
 
     .our-brands h2 {
         font-size: 20px;
-        top:0;
+        top: 0;
     }
 
     .our-brands {
@@ -514,8 +644,18 @@
     .testi-wrapper {
         margin-top: 40px;
     }
-    .eyebrow{margin-bottom:10px;}
-    .latest-blog-img{margin-bottom:25px;}
+
+    .eyebrow {
+        margin-bottom: 10px;
+    }
+
+    .latest-blog-img {
+        margin-bottom: 25px;
+    }
+
+    .address ul {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 480px) {
